@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-get-high-word@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-cos@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sin@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@esm/index.mjs";var i=e,n=s,a=t,m=r,d=[0,0];var l=function(e){var s;if(s=i(e),(s&=2147483647)<=1072243195)return s<1045430272?e:a(e,0);if(s>=2146435072)return NaN;switch(3&m(e,d)){case 0:return a(d[0],d[1]);case 1:return n(d[0],d[1]);case 2:return-a(d[0],d[1]);default:return-n(d[0],d[1])}};export{l as default};
-//# sourceMappingURL=index.mjs.map
