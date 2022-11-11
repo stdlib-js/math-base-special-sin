@@ -37,6 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/constants-float64-high-word-abs-mask": "^0.0.x",
+    "@stdlib/constants-float64-high-word-exponent-mask": "^0.0.x",
     "@stdlib/math-base-special-kernel-cos": "^0.0.x",
     "@stdlib/math-base-special-kernel-sin": "^0.0.x",
     "@stdlib/math-base-special-rempio2": "^0.0.x",
