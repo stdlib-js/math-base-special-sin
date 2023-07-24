@@ -42,7 +42,8 @@
     "@stdlib/math-base-special-kernel-cos": "^0.0.7",
     "@stdlib/math-base-special-kernel-sin": "^0.0.7",
     "@stdlib/math-base-special-rempio2": "^0.0.6",
-    "@stdlib/number-float64-base-get-high-word": "^0.0.6"
+    "@stdlib/number-float64-base-get-high-word": "^0.0.6",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.0.3",
