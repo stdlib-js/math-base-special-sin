@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-sin/tags). For example,
+
+```javascript
 import sin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@v0.2.1-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ v = sin( -3.141592653589793/6.0 );
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@deno/mod.js';
-import sin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@v0.2.1-deno/mod.js';
+import sin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@deno/mod.js';
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
