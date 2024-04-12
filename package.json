@@ -39,8 +39,8 @@
   "dependencies": {
     "@stdlib/constants-float64-high-word-abs-mask": "^0.2.1",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.1",
-    "@stdlib/math-base-special-kernel-cos": "^0.2.1",
-    "@stdlib/math-base-special-kernel-sin": "^0.2.1",
+    "@stdlib/math-base-special-kernel-cos": "^0.2.2",
+    "@stdlib/math-base-special-kernel-sin": "^0.2.2",
     "@stdlib/math-base-special-rempio2": "^0.2.1",
     "@stdlib/number-float64-base-get-high-word": "^0.2.1"
   },
