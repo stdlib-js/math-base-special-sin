@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-14)
+## Unreleased (2024-06-16)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
 -   [`4c95c5a`](https://github.com/stdlib-js/stdlib/commit/4c95c5ac1cc58e3ed3db0b13a653ad7680a0393a) - **docs:** use descriptive variable names [(##2373)](#2373) _(by Gunj Joshi)_
 -   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
@@ -37,8 +38,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
 
