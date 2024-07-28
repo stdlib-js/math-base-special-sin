@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+sin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-sin/tags). For example,
+
+```javascript
 sin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@v0.3.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var sin = require( 'path/to/vendor/umd/math-base-special-sin/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -100,7 +105,7 @@ v = sin( -3.141592653589793/6.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sin@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
