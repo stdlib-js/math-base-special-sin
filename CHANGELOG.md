@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-08-29)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`82547c8`](https://github.com/stdlib-js/stdlib/commit/82547c84e8e82410ec7ffecda8620f170d9bbd2a) - **chore:** add structured package data for `math/base/special/sin` [(#7985)](https://github.com/stdlib-js/stdlib/pull/7985) _(by Lokesh Ranjan, Athan Reines)_
 -   [`0d96bfb`](https://github.com/stdlib-js/stdlib/commit/0d96bfb9ad7789f5a4198bdd15c82c5236410357) - **chore:** remove redundant include statement _(by Karan Anand)_
 -   [`d069841`](https://github.com/stdlib-js/stdlib/commit/d0698415fd26eb45c1cab1e1be0e4551fdae5656) - **docs:** replace manual `for` loop in examples [(#6641)](https://github.com/stdlib-js/stdlib/pull/6641) _(by Harsh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
@@ -41,10 +42,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Harsh
 -   Karan Anand
+-   Lokesh Ranjan
 -   Philipp Burckhardt
 
 </section>
